@@ -1,0 +1,30 @@
+{
+  "name": "movie-api",
+  "version": "1.0.0",
+  "description": "## Instructions",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/nodemon index.js",
+    "eslint": "./node_modules/.bin/eslint --format codeframe .",
+    "lint": "npm run puglint && npm run eslint",
+    "list:fix": "./node_modules/.bin/eslint --fix --format codeframe ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjamingray20/movie-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjamingray20/movie-api/issues"
+  },
+  "homepage": "https://github.com/benjamingray20/movie-api#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  }
+}
